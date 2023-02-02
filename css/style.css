@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Raleway:ital,wght@0,300;0,400;0,900;1,300;1,400&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #fafafa;
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	height: 100vh;
+}
+
+aside {
+	width: 50%;
+	background: url("../images/bg.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.logo {
+	font-family: 'Aladin', cursive;
+	background: #0009;
+	display: flex;
+	justify-content: center;
+	margin-top: 20vh;
+	font-size: 60px;
+	color: lightgreen;
+	padding: 20px;
+}
+
+.attribute {
+	padding: 10px;
+	font-size: 12px;
+	color: lightgreen;
+	align-self: center;
+	position: absolute;
+	bottom: 0;
+
+}
+
+a {
+	color: lightgreen;
+}
+
+.intro {
+	padding: 30px;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.intro > p {
+	line-height: 1.5;
+}
+
+.form-container {
+	padding: 30px;
+	background: white;
+	box-shadow: 0px 3px 5px lightgrey;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding-right: 20%;
+}
+
+.form-fields {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.form-field {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+label {
+	font-size: 10px;
+	letter-spacing: 1.5px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+input {
+	border: 0.5px solid lightgray;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+input[type="submit"] {
+	margin: 30px;
+	background: darkgreen;
+	color: lightgreen;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-weight: 900;
+}
+
+form > p {
+	margin-left: 30px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.shadow:hover {
+	box-shadow: 0px 2px 5px lightgrey;
+}
